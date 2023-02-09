@@ -1,10 +1,9 @@
-//imprime los objetos cursos.
 function imprimeCurso(array){
     for (obj of array) {
         console.log(obj);
         }
 }
-//Me imprime.
+
 function impCursos(array){
     let ListCurso= array.map((array)=>"Id: "+array.id+" "+"Nombre: "+ array.nombre+" "+" Tipo: "+array.tipo+ " "+"Cantidad:" +array.cantidad
     + " "+"Descripcion: " + array.desc+" "+"Precio: " + array.precio+" ");
